@@ -45,7 +45,7 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div className="d-flex flex-column flex-sm-row justify-content-center gap-1 pt-5 mt-4">
+            <div className="d-flex flex-column flex-sm-row justify-content-center gap- pt-5 mt-4">
               <span className="afterline position-relative px-2 d-inline-block  ">
                 <a className="text_grey ff_poppins fw_400 fs22" href="/">
                   Careers
@@ -63,7 +63,7 @@ function Footer() {
               </span>
             </div>
             <div className="p">
-              <h4 className="text_grey ff_poppins fs22 fw_400 text-center py-4">
+              <h4 className="text_grey ff_poppins fs22 fw_400 text-center py-4 mb-0">
                 © 2021 Class Technologies Inc.{" "}
               </h4>
             </div>

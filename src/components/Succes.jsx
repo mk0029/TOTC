@@ -6,7 +6,7 @@ import Carousel from "react-bootstrap/Carousel";
 function Succes() {
   return (
     <>
-      <section className="my-xl-5 my-md-4 my-sm-3 my-2 overflow-hidden">
+      <section className="my-xxl-5 my-md-4 my-sm-3 my-2 overflow-hidden">
         <div className=" container">
           <h2 className="text-center fs48 fw-bold my-2 ">Our Success</h2>
           <p className="text-center ff_BuenosAires fs32  fw_400 text_darkblue">
@@ -18,7 +18,7 @@ function Succes() {
             nam et pharetra gravida. Adipiscing a quis ultrices eu ornare
             tristique vel nisl orci.{" "}
           </p>
-          <div className="my-xl-5 my-md-4 my-sm-3 py-5 ">
+          <div className=" my-md-4 my-sm-3 py-5 ">
             <div className="row justify-content-between my-5 d-none d-lg-flex ">
               <div className="col-xxl-2 col-xl-3 col-lg-4 my-xxl-0 my-4">
                 <div className="d-flex flex-column align-items-center">

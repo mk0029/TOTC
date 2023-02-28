@@ -47,11 +47,11 @@ function TOTC() {
                   {" "}
                   <div className=" d-flex justify-content-center align-items-center flex-column box2_totc">
                     <h2 className=" ff_poppins fs32 fw_600 text_white">
-                      FOR INSTRUCTORS
+                      FOR STUDENTS
                     </h2>
                     <span className="btn_TOTC bg-transparent d-inline-block d-flex justify-content-center align-items-center">
                       <a href="#" className=" ff_poppins fw_500 fs22">
-                        Start a class today
+                        Enter access code
                       </a>
                     </span>
                   </div>

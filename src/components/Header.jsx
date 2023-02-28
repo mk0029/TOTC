@@ -27,7 +27,7 @@ function Header() {
           src={teenagegirl}
           alt="lovely-teenage-girl"
         />
-        <div className=" container ">
+        <div className=" container z_index_2 ">
           {" "}
           <nav className=" py-2 ">
             <div className=" d-flex justify-content-between align-items-center w-100 ">
@@ -37,7 +37,7 @@ function Header() {
               >
                 <img className="w-50" src={logo} alt="logo" />
               </a>
-              <ul className="d-flex gap-3 gap-lg-3 gap-xl-5 py-3 list-unstyled d-none d-xl-flex align-items-center mb-0 justify-content-end">
+              <ul className="d-flex gap-3  gap-xl-3 gap-xxl-5 py-3 list-unstyled d-none d-xl-flex align-items-center mb-0 justify-content-end">
                 <li>
                   <a
                     class=" ff_poppins fw_400 fs22 text-white z_index text_stroke "
@@ -164,7 +164,7 @@ function Header() {
             </div>
           </nav>
         </div>
-        <div className=" flex-grow-lg-1 flex-column d-flex justify-content-center align-items-center ">
+        <div className=" flex-grow-1 flex-column d-flex justify-content-center align-items-center ">
           <div className=" container">
             <div className="row justify-content-between">
               <div className="col-xxl-5">

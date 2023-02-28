@@ -20,7 +20,7 @@ function Featuers() {
             This very extraordinary feature, can make learning activities more
             efficient
           </p>
-          <div className="py-xxl-5 py-lg-4 py-3">
+          <div className=" py-lg-4 py-3">
             <div className="row">
               <div className="col-xxl-7">
                 <div className="">
@@ -64,7 +64,7 @@ function Featuers() {
               </div>
             </div>
           </div>
-          <div className="py-xxl-5 py-lg-4 py-3 my-xxl-5 my-md-4 my-2">
+          <div className=" py-lg-4 py-3 my-xxl-5 my-md-4 my-2">
             <div className="row flex-column-reverse flex-xl-row justify-content-between">
               <div className="col-xl-5 ">
                 <div className="d-flex flex-column justify-content-center ga-md-4 gap-3 gap-xl-5 h-100">
@@ -87,7 +87,7 @@ function Featuers() {
               </div>
             </div>
           </div>{" "}
-          <div className="py-xxl-5 py-lg-4 py-3 my-xxl-5 my-md-4 my-2">
+          <div className="py-lg-4 py-3 my-xxl-5 my-md-4 my-2">
             <div className="row  justify-content-between">
               <div className="col-xl-6">
                 <div className="d-flex justify-content-center">

@@ -44,7 +44,7 @@ function LatestNewes() {
               <div className="col-xxl-6">
                 <div className="d-flex flex-column gap-4 d-none d-sm-flex">
                   {MyNewes.map((mydata, i) => {
-                    if (i < 2) {
+                    if (i <= 2) {
                       return (
                         <div className="d-flex flex-column align-items-center align-items-md-start flex-md-row gap-3">
                           <span>
