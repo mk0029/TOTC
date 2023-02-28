@@ -20,7 +20,12 @@ function Succes() {
           </p>
           <div className=" my-md-4 my-sm-3 py-5 ">
             <div className="row justify-content-between my-5 d-none d-lg-flex ">
-              <div className="col-xxl-2 col-xl-3 col-lg-4 my-xxl-0 my-4">
+              <div
+                className="col-xxl-2 col-xl-3 col-lg-4 my-xxl-0 my-4"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-up"
+              >
                 <div className="d-flex flex-column align-items-center">
                   <h2 className=" ff_BuenosAires fs96 text_gradient fw_300">
                     15K+
@@ -31,7 +36,12 @@ function Succes() {
                 </div>
               </div>
 
-              <div className="col-xxl-2 col-xl-3 col-lg-4 my-xxl-0 my-4">
+              <div
+                className="col-xxl-2 col-xl-3 col-lg-4 my-xxl-0 my-4"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-up"
+              >
                 {" "}
                 <div className="d-flex flex-column align-items-center">
                   <h2 className=" ff_BuenosAires fs96 text_gradient fw_300">
@@ -42,7 +52,12 @@ function Succes() {
                   </p>
                 </div>
               </div>
-              <div className="col-xxl-2 col-xl-3 col-lg-4 my-xxl-0 my-4">
+              <div
+                className="col-xxl-2 col-xl-3 col-lg-4 my-xxl-0 my-4"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-up"
+              >
                 <div className="d-flex flex-column align-items-center">
                   <h2 className=" ff_BuenosAires fs96 text_gradient fw_300">
                     35
@@ -54,7 +69,12 @@ function Succes() {
               </div>
               <div className="col-xxl-2 col-xl-3 col-lg-4 my-xxl-0 my-4">
                 {" "}
-                <div className="d-flex flex-column align-items-center">
+                <div
+                  className="d-flex flex-column align-items-center"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                  data-aos="fade-up"
+                >
                   <h2 className=" ff_BuenosAires fs96 text_gradient fw_300">
                     26
                   </h2>
@@ -63,7 +83,12 @@ function Succes() {
                   </p>
                 </div>
               </div>
-              <div className="col-xxl-2 col-xl-3 col-lg-4 my-xxl-0 my-4">
+              <div
+                className="col-xxl-2 col-xl-3 col-lg-4 my-xxl-0 my-4"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-up"
+              >
                 <div className="d-flex flex-column align-items-center">
                   <h2 className=" ff_BuenosAires fs96 text_gradient fw_300">
                     16
@@ -148,7 +173,12 @@ function Succes() {
             </div>
             <div className="my-xl-5 my-md-4 my-sm-3 py-xl-5 py-md-4 py-sm-3">
               <div className="row justify-content-center">
-                <div className="col-xxl-4 col-lg-6 my-xxl-0 my-5   ">
+                <div
+                  className="col-xxl-4 col-lg-6 my-xxl-0 my-5   "
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                  data-aos="fade-down"
+                >
                   <div className="px-xxl-4 px-lg-3 px-2 pt-xxl-5 pt-lg-4 pt-3 pb-xxl-5 pb-lg-4 pb-3 d-flex flex-column align-items-center boxshaddow_cloud position-relative mx-xxl-4 h_500 ">
                     <img
                       className=" position-absolute img_tranestion_cloud"
@@ -176,7 +206,12 @@ function Succes() {
                     </p>
                   </div>
                 </div>
-                <div className="col-xxl-4 col-lg-6 my-xxl-0 my-5  px-4 h-100">
+                <div
+                  className="col-xxl-4 col-lg-6 my-xxl-0 my-5  px-4 h-100"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                  data-aos="fade-down"
+                >
                   <div className="px-xxl-4 px-lg-3 px-2 pt-xxl-5 pt-lg-4 pt-3 pb-xxl-5 pb-lg-4 pb-3 d-flex flex-column align-items-center boxshaddow_cloud position-relative mx-xxl-4 h_500 ">
                     <img
                       className=" position-absolute img_tranestion_cloud"
@@ -203,7 +238,12 @@ function Succes() {
                     </p>
                   </div>
                 </div>
-                <div className="col-xxl-4 col-lg-6 my-xxl-0 my-5  px-4 h-100">
+                <div
+                  className="col-xxl-4 col-lg-6 my-xxl-0 my-5  px-4 h-100"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                  data-aos="fade-down"
+                >
                   <div className="px-xxl-4 px-lg-3 px-2 pt-xxl-5 pt-lg-4 pt-3 pb-xxl-5 pb-lg-4 pb-3 d-flex flex-column align-items-center boxshaddow_cloud position-relative mx-xxl-4 h_500">
                     <img
                       className=" position-absolute img_tranestion_cloud"

@@ -27,7 +27,12 @@ function TOTC() {
           </p>
           <div className="py-5">
             <div className="row">
-              <div className="col-xxl-6 my-xxl-0 my-4">
+              <div
+                className="col-xxl-6 my-xxl-0 my-4"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-right"
+              >
                 <div className="d-flex justify-content-center justify-content-sm-end px-md-4">
                   {" "}
                   <div className=" d-flex justify-content-center align-items-center  flex-column box_totc">
@@ -42,7 +47,12 @@ function TOTC() {
                   </div>
                 </div>
               </div>
-              <div className="col-xxl-6 my-xxl-0 my-4">
+              <div
+                className="col-xxl-6 my-xxl-0 my-4"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-left"
+              >
                 <div className="d-flex justify-content-start px-sm-4">
                   {" "}
                   <div className=" d-flex justify-content-center align-items-center flex-column box2_totc">
@@ -61,7 +71,12 @@ function TOTC() {
           </div>
           <div className=" py-xxl-5 py-xl-4 py-lg-3 py-2  my-xxl-5 my-xl-4 py-3 ">
             <div className="row flex-column-reverse flex-xxl-row ">
-              <div className="col-xxl-6 ">
+              <div
+                className="col-xxl-6 "
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-up"
+              >
                 <div className="my-5 ">
                   <h2 className=" ff_poppins fw_500 fs36 text_primery">
                     <span className=" position-relative">
@@ -100,7 +115,12 @@ function TOTC() {
                   </a>
                 </div>
               </div>
-              <div className="col-xxl-6 d-flex justify-content-center justify-content-3xl-end">
+              <div
+                className="col-xxl-6 d-flex justify-content-center justify-content-3xl-end"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-down"
+              >
                 <div className="box_teacher position-relative">
                   <img
                     className=" position-absolute TEACHERLEFT"

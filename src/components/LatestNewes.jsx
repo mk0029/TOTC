@@ -10,7 +10,7 @@ function LatestNewes() {
   return (
     <>
       {" "}
-      <section className="my-xl-5 my-md-4 my-sm-3 my-2 Newws">
+      <section className="my-xl-5 my-md-4 my-sm-3 my-2 Newws overflow-hidden">
         <div className=" container">
           <h2 className=" ff_poppins fw_700 ff_nunito fs36 text_primery text-center">
             Lastest News and Resources
@@ -20,7 +20,12 @@ function LatestNewes() {
           </p>
           <div className="">
             <div className="row justify-content-between">
-              <div className="col-xxl-5">
+              <div
+                className="col-xxl-5"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-right"
+              >
                 <div className="my-lg-4 my-3 my-xxl-0 h-100 d-flex flex-column justify-content-between">
                   <span>
                     <img className="w-100" src={LaPtOp} alt="" />
@@ -42,11 +47,21 @@ function LatestNewes() {
                 </div>
               </div>
               <div className="col-xxl-6">
-                <div className="d-flex flex-column gap-4 d-none d-sm-flex">
+                <div
+                  className="d-flex flex-column gap-4 d-none d-sm-flex"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                  data-aos="fade-left"
+                >
                   {MyNewes.map((mydata, i) => {
                     if (i <= 2) {
                       return (
-                        <div className="d-flex flex-column align-items-center align-items-md-start flex-md-row gap-3">
+                        <div
+                          className="d-flex flex-column align-items-center align-items-md-start flex-md-row gap-3"
+                          data-aos-easing="linear"
+                          data-aos-duration="2000"
+                          data-aos="fade-right"
+                        >
                           <span>
                             <img
                               className="img_news"

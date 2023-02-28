@@ -4,8 +4,13 @@ import logofooter from "../assets/img/webp/logo-Tot-c.webp";
 function Footer() {
   return (
     <>
-      <section className=" bg_bluedark  footer">
-        <div className=" container">
+      <section className=" bg_bluedark  footer overflow-hidden">
+        <div
+          className=" container"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center"
+          data-aos-duration="1000"
+        >
           <div>
             {" "}
             <div className="d-flex justify-content-center gap-5 py-5 mb-5">

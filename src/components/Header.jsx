@@ -37,7 +37,12 @@ function Header() {
               >
                 <img className="w-50" src={logo} alt="logo" />
               </a>
-              <ul className="d-flex gap-3  gap-xl-3 gap-xxl-5 py-3 list-unstyled d-none d-xl-flex align-items-center mb-0 justify-content-end">
+              <ul
+                className="d-flex gap-3  gap-xl-3 gap-xxl-5 py-3 list-unstyled d-none d-xl-flex align-items-center mb-0 justify-content-end"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
                 <li>
                   <a
                     class=" ff_poppins fw_400 fs22 text-white z_index text_stroke "
@@ -167,7 +172,12 @@ function Header() {
         <div className=" flex-grow-1 flex-column d-flex justify-content-center align-items-center ">
           <div className=" container">
             <div className="row justify-content-between">
-              <div className="col-xxl-5">
+              <div
+                className="col-xxl-5"
+                data-aos="fade-right"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
                 <div className="d-flex flex-column gap-xxl-5 gap-md-4 gap-3">
                   <h1 className=" ff_poppins fw_700 fs54 text_white">
                     <span className=" text_yellow">Studying</span> Online is now
@@ -196,7 +206,12 @@ function Header() {
                   </div>
                 </div>
               </div>
-              <div className="col-xxl-7 h-100 bg_girl my-xxl-0 my-4">
+              <div
+                className="col-xxl-7 h-100 bg_girl my-xxl-0 my-4"
+                data-aos="fade-left"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
                 <div className="d-flex flex-column gap-5 justify-content-between h-100 ps-mx-4 z_index_2">
                   <div className="k250 d-flex py-3 px-3 bg-white d-inline-block gap-3 align-items-center  ">
                     <span className="">

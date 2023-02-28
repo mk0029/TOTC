@@ -22,12 +22,22 @@ function Featuers() {
           </p>
           <div className=" py-lg-4 py-3">
             <div className="row">
-              <div className="col-xxl-7">
+              <div
+                className="col-xxl-7"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-up"
+              >
                 <div className="">
                   <img className="w-100" src={grup2} alt="" />
                 </div>
               </div>
-              <div className="col-xxl-5">
+              <div
+                className="col-xxl-5"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-down"
+              >
                 <div className="d-flex flex-column justify-content-center gap-4 h-100">
                   <h3 className="ff_poppins fs40 fw_600 text_primery  mb-3">
                     A <span className=" text_secondrey">user interface</span>{" "}
@@ -66,7 +76,12 @@ function Featuers() {
           </div>
           <div className=" py-lg-4 py-3 my-xxl-5 my-md-4 my-2">
             <div className="row flex-column-reverse flex-xl-row justify-content-between">
-              <div className="col-xl-5 ">
+              <div
+                className="col-xl-5 "
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-down"
+              >
                 <div className="d-flex flex-column justify-content-center ga-md-4 gap-3 gap-xl-5 h-100">
                   <h2 className="ff_poppins fs40 fw_600 text_primery  mb-3">
                     <span className=" text_secondrey"> Tools </span> For
@@ -80,7 +95,12 @@ function Featuers() {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-6">
+              <div
+                className="col-xl-6"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-up"
+              >
                 <div className="d-flex justify-content-center">
                   <img className="cutegirl2" src={CUtegirl2} alt="" />
                 </div>
@@ -89,12 +109,22 @@ function Featuers() {
           </div>{" "}
           <div className="py-lg-4 py-3 my-xxl-5 my-md-4 my-2">
             <div className="row  justify-content-between">
-              <div className="col-xl-6">
+              <div
+                className="col-xl-6"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-up"
+              >
                 <div className="d-flex justify-content-center">
                   <img className="img_assignmnets" src={grup4} alt="" />
                 </div>
               </div>
-              <div className="col-xxl-4 col-xl-5 ">
+              <div
+                className="col-xxl-4 col-xl-5 "
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-down"
+              >
                 <div className="d-flex flex-column justify-content-center ga-md-4 gap-3 gap-xl-5 h-100">
                   <h2 className=" ff_nunito fs40 fw_700 text_primery  mb-3">
                     <span className="d-block ff_poppins fw_600">
@@ -113,7 +143,12 @@ function Featuers() {
           </div>
           <div className="py-xxl-5 py-lg-4 py-3 my-xxl-5 my-md-4 my-2">
             <div className="row flex-column-reverse flex-xl-row justify-content-between">
-              <div className="col-xl-5 ">
+              <div
+                className="col-xl-5 "
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-down"
+              >
                 <div className="d-flex flex-column justify-content-center ga-md-4 gap-3 gap-xl-5 h-100 mt-5 pt-5">
                   <h6>TESTIMONIAL</h6>
                   <h2 className=" ff_nunito fs60 fw_700 text_primery">
@@ -147,7 +182,12 @@ function Featuers() {
                   </label>
                 </div>
               </div>
-              <div className="col-xl-6">
+              <div
+                className="col-xl-6"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+                data-aos="fade-up"
+              >
                 <div className="d-flex justify-content-center position-relative">
                   <img className="smilegirl w-100" src={smilegirl} alt="" />
                   <div className="bg-white ps-5 pe-xl-5 pe-md-4 pe-3 py-xl-5 py-md-4 py-3 position-absolute boxposition overflow-hidden">

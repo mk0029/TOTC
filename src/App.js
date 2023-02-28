@@ -1,4 +1,6 @@
-import logo from "./logo.svg";
+import AOS from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../src/components/Header";
@@ -8,6 +10,9 @@ import LatestNewes from "./components/LatestNewes";
 import Footer from "./components/Footer";
 import Featuers from "./components/Featuers";
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Header />/
