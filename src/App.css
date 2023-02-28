@@ -1,0 +1,693 @@
+/* nav-bar */
+.text_stroke:hover {
+  -webkit-text-stroke-color: rgb(255, 255, 255) !important;
+  -webkit-text-stroke-width: 1px !important;
+}
+.menu_formatting {
+  display: grid;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+.search_icon {
+  background: #212121;
+  border: 1px solid #565656;
+  border-radius: 20px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  cursor: pointer;
+  z-index: 123;
+  position: relative;
+}
+label span {
+  background: rgb(252, 250, 250);
+  border-radius: 10px;
+  height: 3px;
+  margin: 3px 0;
+  transition: 0.2s all ease-in-out;
+}
+.span_nav1 {
+  width: 100%;
+}
+.span_nav2 {
+  width: 100%;
+  margin-right: auto;
+}
+.span_nav3 {
+  width: 100%;
+}
+.menu {
+  display: none;
+}
+.menu[type="checkbox"]:checked ~ span:nth-of-type(1) {
+  transform-origin: bottom;
+  width: 104%;
+  transform: rotatez(55deg) translate(7px, 4px);
+}
+.menu[type="checkbox"]:checked ~ span:nth-of-type(2) {
+  transform-origin: top;
+  width: 100%;
+  transform: rotatez(-55deg);
+}
+.menu[type="checkbox"]:checked ~ span:nth-of-type(3) {
+  transform-origin: bottom;
+  width: 0%;
+  transform: translate(15px, -4px) rotatez(45deg);
+}
+.nav-fix {
+  /* min-width: 100vh;/ */
+  height: 100vh;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  background-color: #7a13bac9;
+  z-index: 1;
+  display: flex;
+  z-index: 12;
+  align-items: center !important;
+  justify-content: center !important;
+  opacity: 100% !important;
+  transition: all 500ms ease-in-out !important;
+}
+.fix-navbar {
+  /* min-width: 100vh;/ */
+  height: 100vh;
+  top: 0px;
+  left: -250%;
+  width: 100%;
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 1;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  opacity: 100% !important;
+  transition: all 500ms ease-in-out !important;
+}
+
+.transition_500 {
+  transition: all 500ms ease-out !important;
+}
+.z_index {
+  position: relative !important;
+  z-index: 3 !important;
+}
+.z_index0 {
+  position: absolute !important;
+  z-index: 0 !important;
+}
+.z_index1 {
+  position: relative !important;
+  z-index: 1 !important;
+}
+.z_index_1 {
+  z-index: -1;
+}
+.z_index_2 {
+  z-index: 2 !important;
+}
+/* btn */
+.btn_totc {
+  width: 160px;
+  height: 60px;
+  border-radius: 50px;
+}
+.btn_totc a {
+  color: #5b5b5b !important;
+  letter-spacing: 0.02em;
+}
+.btn_join {
+  width: 220px;
+  height: 80px;
+  border-radius: 50px;
+}
+/* Headder */
+.bg_hadder {
+  background-color: #00cbb8;
+  overflow: hidden;
+  /* clip-path: polygon(
+    100% 0%,
+    47% 0%,
+    0% 0%,
+    0% 20%,
+    0% 52%,
+    0% 86%,
+    13% 93%,
+    28% 98%,
+    51% 100%,
+    76% 96%,
+    85% 94%,
+    100% 88%,
+    100% 59%,
+    100% 30%
+  ); */
+}
+.btn_hover_bluer:hover {
+  background-color: #7fcccdd3 !important;
+}
+.btn_hover_bluer:hover a {
+  color: white !important;
+}
+.btn_bluer {
+  background-color: #7fcccdca;
+  color: white !important;
+}
+.btn_hover_white:hover {
+  background-color: white;
+}
+.btn_bluer a {
+  color: white !important;
+}
+.btn_bluer:hover a {
+  color: #5b5b5b !important;
+}
+.videobutton {
+  width: 100px;
+  height: 100px;
+}
+.k250 {
+  width: 300px;
+  min-height: 100px;
+  border-radius: 20px;
+}
+.Congratulations_box {
+  width: 370px;
+  height: 110px;
+  border-radius: 20px;
+}
+.User_box {
+  width: 390px;
+  height: 187px;
+  border-radius: 20px;
+}
+.teenagegirl {
+  bottom: 0;
+  /* height: 50%; */
+  width: 36%;
+  right: 16%;
+  z-index: -1;
+}
+.bg_girl {
+  background-image: url(../src/assets/img/png/lovely-teenage-girl.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+/* secces */
+.text_gradient {
+  background: -webkit-linear-gradient(#136cb5 0%, #49bbbd 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* cloudfire */
+.boxshaddow_cloud {
+  background: #ffffff;
+  box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+  border-radius: 20px;
+}
+.img_tranestion_cloud {
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -45%) !important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 3rem !important;
+  height: 3rem !important;
+  background-color: #136cb5;
+}
+.carousel-indicators {
+  bottom: -30px !important;
+}
+.carousel-indicators [data-bs-target] {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+  background-color: #136cb5 !important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 3rem !important;
+  height: 3rem !important;
+}
+.hight_carosuleitems {
+  height: 200px;
+}
+.white-space-nowrape {
+  white-space: nowrap;
+}
+.img_assignmnets {
+  width: 318.62px;
+  height: 386.39px;
+}
+.cutegirl2 {
+  width: 320px;
+  height: 302px;
+}
+.but {
+  border-radius: 50px;
+  padding: 30px 35px;
+  background-color: transparent;
+  border: 1px solid #00cbb8 !important;
+  color: #00cbb8 !important;
+}
+.but:hover {
+  background-color: #00cbb8;
+  border: 1px solid #030606 !important;
+  color: black !important;
+}
+
+.input {
+  border: 1px solid #49bbbd !important;
+  border-radius: 80px;
+  /* padding: 20px; */
+  outline: none;
+  max-width: 600px;
+}
+input {
+  border: none;
+  outline: none;
+}
+
+.inp {
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 15px;
+}
+.boxposition {
+  bottom: -10%;
+  transform: translateX(0%);
+  width: 100%;
+
+  background: #ffffff;
+  box-shadow: 2px 4px 60px rgba(41, 44, 124, 0.1);
+  border-radius: 20px;
+}
+.overlay {
+  background-color: #f6776691;
+  height: 200%;
+  width: 130%;
+  top: -50px;
+  left: -135%;
+  transition: all 300ms ease-in-out;
+}
+.overlaybox:hover .overlay {
+  top: -50px;
+  left: -10%;
+}
+/* TOTC */
+.box_totc {
+  width: 600px;
+  height: 400px;
+  background-image: url(../src//assets//img//png/Group\ 22.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  border-radius: 20px;
+}
+.box2_totc {
+  width: 600px;
+  height: 400px;
+  background-image: url(../src//assets//img//png/Group\ 23.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.btn_TOTC {
+  width: 283px;
+  height: 80px;
+  border: 1px solid #ffffff;
+  border-radius: 80px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.btn_TOTC::after {
+  content: "";
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background: #21aed9c5;
+  position: absolute;
+  left: 50%;
+  transition: all 400ms ease-in-out;
+  z-index: 0;
+  border-radius: 20px;
+  transform: translateX(-50%) rotateZ(360deg);
+}
+.btn_TOTC:hover:after {
+  width: 100%;
+  height: 100%;
+  transform: translateX(-50%) rotateZ(0deg);
+}
+.btn_TOTC::before {
+  content: "";
+  height: 75%;
+  width: 30%;
+  background: #00000077;
+  position: absolute;
+  left: -20%;
+  transform: translateX(-50%) rotateZ(45deg);
+  transition: all 500ms ease-in-out;
+  z-index: 0;
+  border-radius: 30px;
+}
+.box_totc:hover .btn_TOTC::before {
+  transform: translateX(-50%) rotateZ(360deg);
+  left: 120%;
+}
+.box2_totc:hover .btn_TOTC::before {
+  transform: translateX(-50%) rotateZ(360deg);
+  left: 120%;
+}
+.btn_TOTC a {
+  color: #ffff !important;
+  z-index: 2;
+}
+
+.TEACHERLEFT {
+  left: -20px;
+  top: -20px;
+  z-index: -1;
+  transition: all 500ms ease-in-out;
+}
+.TEACHERRIGHT {
+  right: -20px;
+  bottom: -20px;
+  z-index: -1;
+  transition: all 500ms ease-in-out;
+}
+.box_teacher:hover .TEACHERLEFT {
+  transform: rotate(180deg);
+}
+.box_teacher:hover .TEACHERRIGHT {
+  transform: rotate(-180deg);
+}
+.circleevery {
+  left: 0;
+  top: 0;
+  transform: translate(-40%, -20%);
+  z-index: -1;
+}
+.circl2 {
+  left: 0;
+  top: 0;
+  transform: translate(-40%, -20%);
+  z-index: -1;
+}
+/* .box_totc:hover .btn_TOTC {
+  background-color: #21aed9c5 !important;
+} */
+/* NEWES */
+.Newws .carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 2rem !important;
+  height: 2rem !important;
+  background-position: 50%;
+  background-color: #008bfd;
+}
+.carousel-control-next-icon,
+.Newws .carousel-indicators {
+  bottom: -40px !important;
+}
+.Newws .carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background-color: #136cb5 !important;
+  transition: opacity 0.6s ease;
+}
+.btn_nwwes {
+  width: 130px;
+  height: 40px;
+  background: #49bbbd !important;
+  border-radius: 80px;
+  transition: all 500ms ease-in-out;
+}
+.btn_nwwes:hover {
+  background: #04fbff !important;
+  cursor: pointer;
+}
+
+.img_news {
+  width: 280px;
+  height: 200px;
+}
+/* F
+ooter */
+.logo_footer {
+  width: 114px;
+  height: 83px;
+  position: relative;
+}
+.afterline::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 1px;
+  background: #626380;
+  right: 0;
+}
+.btn_subscribe {
+  background: #49bbbd;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 22px;
+  color: white;
+}
+.footer input {
+  border: 1px solid white;
+  background-color: transparent;
+  outline: none;
+  width: 100%;
+  color: white;
+}
+.footer ::placeholder {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+}
+.footer .btn_subscribe:hover {
+  color: #293634 !important;
+}
+.footer a {
+  transition: 300ms ease-in-out all;
+}
+.footer a:hover {
+  color: white !important;
+}
+.imghadderbottom {
+  display: none;
+}
+@media (max-width: 576px) {
+  .box_teacher {
+    background-image: url(../src/assets/img/png/confident-teacher-explaining-lesson-pupils.png);
+    width: 505px;
+    height: 371.08px;
+    background-position: center;
+    background-size: cover;
+  }
+  .btn_TOTC {
+    width: 200px;
+    height: 70px;
+  }
+  .box_totc {
+    width: 100vw;
+    height: 400px;
+  }
+  .box2_totc {
+    width: 100vw;
+    height: 400px;
+  }
+  .User_box {
+    width: 300px;
+    height: 187px;
+    border-radius: 20px;
+  }
+  .but {
+    border-radius: 50px;
+    padding: 20px 25px;
+  }
+}
+
+@media (min-width: 576px) {
+  .img_assignmnets {
+    width: 509.62px;
+    height: 588.39px;
+  }
+  .cutegirl2 {
+    width: 637.2px;
+    height: 611px;
+  }
+  .box_teacher {
+    background-image: url(../src/assets/img/png/confident-teacher-explaining-lesson-pupils.png);
+    width: 639px;
+    height: 427.08px;
+    background-position: center;
+    background-size: cover;
+  }
+  .box_totc {
+    width: 600px;
+    height: 400px;
+  }
+  .box2_totc {
+    width: 600px;
+    height: 400px;
+  }
+}
+@media (min-width: 768px) {
+  .cutegirl2 {
+    width: 563.2px;
+    height: 547px;
+  }
+  .footer input {
+    width: 40%;
+  }
+  .box_totc {
+    width: 600px;
+    height: 400px;
+  }
+  .box2_totc {
+    width: 600px;
+    height: 400px;
+  }
+  .box_teacher {
+    background-image: url(../src/assets/img/png/confident-teacher-explaining-lesson-pupils.png);
+    width: 705px;
+    height: 471.08px;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 992px) {
+  .boxposition {
+    bottom: -15%;
+    transform: translateX(20%);
+    width: 680px;
+    height: 329px;
+    background: #ffffff;
+    box-shadow: 2px 4px 60px rgba(41, 44, 124, 0.1);
+    border-radius: 20px;
+  }
+  .h_500 {
+    min-height: 420px;
+  }
+
+  .btn_totc {
+    width: 130px;
+    height: 55px;
+    border-radius: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .imghadderbottom {
+    display: block;
+    height: 180px;
+    bottom: -33px;
+    z-index: 2;
+  }
+  .min_vh_100 {
+    min-height: 100vh;
+  }
+  .btn_totc {
+    width: 160px;
+    height: 60px;
+    border-radius: 50px;
+  }
+}
+@media (min-width: 1400px) {
+  .imghadderbottom {
+    height: 180px;
+    width: 100vw !important;
+    bottom: -36px;
+    z-index: 2;
+  }
+  .boxposition {
+    bottom: -15%;
+    transform: translateX(0%);
+    width: 680px;
+    height: 329px;
+    background: #ffffff;
+    box-shadow: 2px 4px 60px rgba(41, 44, 124, 0.1);
+    border-radius: 20px;
+  }
+  .bg_girl {
+    background-image: unset;
+  }
+  /* .bg_hadder {
+    clip-path: circle(76.6% at 50% 24%);
+  } */
+  .teenagegirl {
+    bottom: 0;
+    width: 40%;
+    right: 4%;
+    z-index: 0;
+  }
+  .btn_totc {
+    width: 160px;
+    height: 60px;
+    border-radius: 50px;
+  }
+  .box_teacher {
+    background-image: url(../src/assets/img/png/confident-teacher-explaining-lesson-pupils.png);
+    width: 639px;
+    height: 427.08px;
+    background-position: center;
+    background-size: cover;
+  }
+  .d-3xl-block {
+    display: block;
+  }
+  .justify-content-3xl-end {
+    justify-content: end;
+  }
+
+  .container {
+    max-width: 1640px !important;
+  }
+}
+@media (min-width: 1600px) {
+  .teenagegirl {
+    bottom: 0;
+    /* height: 50%; */
+    width: 36%;
+    right: 16%;
+    z-index: 0;
+  }
+  .btn_totc {
+    width: 160px;
+    height: 60px;
+    border-radius: 50px;
+  }
+  .justify-content-3xl-end {
+    justify-content: end !important;
+  }
+  .box_teacher {
+    background-image: url(../src/assets/img/png/confident-teacher-explaining-lesson-pupils.png);
+    width: 705px;
+    height: 471.08px;
+    background-position: center;
+    background-size: cover;
+  }
+  .container {
+    max-width: 1640px !important;
+  }
+  .boxposition {
+    bottom: -15%;
+    transform: translateX(20%);
+    width: 680px;
+    height: 329px;
+    background: #ffffff;
+    box-shadow: 2px 4px 60px rgba(41, 44, 124, 0.1);
+    border-radius: 20px;
+  }
+}

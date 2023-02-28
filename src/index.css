@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*  */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+.ff_poppins {
+  font-family: "Poppins", sans-serif;
+}
+.ff_nunito {
+  font-family: "Nunito Sans", sans-serif;
+}
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("../src/assets/font/font/BuenosAires-Light.woff") format("truetype");
+
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+.ff_BuenosAires {
+  font-family: "Buenos Aires";
+}
+p {
+  color: #696984;
+}
+
+:root {
+  /* font-size */
+
+  /* font-weight */
+
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-sesmibold: 600;
+  --fw-bold: 700;
+
+  /* color */
+  --color-white: #ffff;
+  --color-primery: #08092f;
+  --color-yellow: #f48c06;
+  --color-lightgrey: #595959;
+  --color-grey: #545567;
+  --color-secondry: #00cbb8;
+  --color-skyblue: #49bbb8;
+  --color-darkgrey: #b2b3bf;
+  --color-skyblue-dark: #41be90;
+  --text-blue-dark: #0e0e1a;
+  /* bg */
+  --bg-blue-sky: #23bdee;
+  --bg-pinkred: #d8587e;
+  --bg-blue-dark: #252641;
+  /* --bg-pinkred: #49bbde; */
+  --bg-orangelight: #f67766;
+  --bg-whitesblue: #cdd8ff;
+}
+.fs18 {
+  font-size: var(--fs-xsm);
+}
+.fs20 {
+  font-size: var(--fs-sm);
+}
+.fs22 {
+  font-size: var(--fs-md);
+}
+.fs24 {
+  font-size: var(--fs-lg);
+}
+.fs26 {
+  font-size: var(--fs-xl);
+}
+.fs30 {
+  font-size: var(--fs-xxl);
+}
+.fs32 {
+  font-size: var(--fs-3xl);
+}
+.fs36 {
+  font-size: var(--fs-4xl);
+}
+.fs40 {
+  font-size: var(--fs-5xl);
+}
+.fs44 {
+  font-size: var(--fs-6xl);
+}
+.fs48 {
+  font-size: var(--fs-7xl);
+}
+.fs54 {
+  font-size: var(--fs-8xl);
+}
+.fs60 {
+  font-size: var(--fs-9xl);
+}
+.fs96 {
+  font-size: var(--fs-10xl);
+}
+/* colors */
+.text_white {
+  color: var(--color-white);
+}
+.text_darkblue {
+  color: var(--bg-blue-dark);
+}
+.text_primery {
+  color: var(--color-primery);
+}
+.text_yellow {
+  color: var(--color-yellow);
+}
+.text_skyblue {
+  color: var(--color-skyblue);
+}
+.text_skybluedark {
+  color: var(--color-skyblue-dark);
+}
+.text_grey {
+  color: var(--color-grey);
+}
+.text_secondrey {
+  color: var(--color-secondry);
+}
+.text_darkgrey {
+  color: var(--color-darkgrey);
+}
+.text_lightgrey {
+  color: var(--color-lightgrey);
+}
+/* bg */
+.bg_bluesky {
+  background-color: var(--bg-blue-sky);
+}
+.bg_bluedark {
+  background-color: var(--bg-blue-dark);
+}
+.bg_orangelight {
+  background-color: var(--bg-orangelight);
+}
+.bg_pinkred {
+  background-color: var(--bg-pinkred);
+}
+.bg_whitesblue {
+  background-color: var(--bg-whitesblue);
+}
+.fw_300 {
+  font-weight: var(--fw-light);
+}
+.fw_400 {
+  font-weight: var(--fw-normal);
+}
+.fw_500 {
+  font-weight: var(--fw-medium);
+}
+.fw_600 {
+  font-weight: var(--fw-sesmibold);
+}
+.fw_700 {
+  font-weight: var(--fw-bold);
+}
+.lh_30 {
+  line-height: var(--fs-4xl);
+}
+
+/*  */
+@media (max-width: 576px) {
+  :root {
+    --fs-xsm: 18px;
+    --fs-sm: 20px;
+    --fs-md: 12px;
+    --fs-lg: 12px;
+    --fs-xl: 26px;
+    --fs-xxl: 30px;
+    --fs-3xl: 22px;
+    --fs-4xl: 24px;
+    --fs-5xl: 22px;
+    --fs-6xl: 44px;
+    --fs-7xl: 48px;
+    --fs-8xl: 32px;
+    --fs-9xl: 38px;
+    --fs-10xl: 96px;
+  }
+  .lh_40 {
+    line-height: 20px;
+  }
+}
+@media (min-width: 576px) {
+  :root {
+    --fs-xsm: 18px;
+    --fs-sm: 20px;
+    --fs-md: 18px;
+    --fs-lg: 16px;
+    --fs-xl: 26px;
+    --fs-xxl: 30px;
+    --fs-3xl: 32px;
+    --fs-4xl: 36px;
+    --fs-5xl: 30px;
+    --fs-6xl: 44px;
+    --fs-7xl: 48px;
+    --fs-8xl: 50px;
+    --fs-9xl: 60px;
+    --fs-10xl: 96px;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --fs-xsm: 18px;
+    --fs-sm: 20px;
+    --fs-md: 20px;
+    --fs-lg: 18px;
+    --fs-xl: 26px;
+    --fs-xxl: 30px;
+    --fs-3xl: 32px;
+    --fs-4xl: 36px;
+    --fs-5xl: 35px;
+    --fs-6xl: 44px;
+    --fs-7xl: 48px;
+    --fs-8xl: 54px;
+    --fs-9xl: 60px;
+    --fs-10xl: 96px;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    --fs-xsm: 18px;
+    --fs-sm: 20px;
+    --fs-md: 22px;
+    --fs-lg: 20px;
+    --fs-xl: 26px;
+    --fs-xxl: 30px;
+    --fs-3xl: 32px;
+    --fs-4xl: 36px;
+    --fs-5xl: 40px;
+    --fs-6xl: 44px;
+    --fs-7xl: 48px;
+    --fs-8xl: 54px;
+    --fs-9xl: 60px;
+    --fs-10xl: 96px;
+  }
+  .lh_40 {
+    line-height: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    --fs-xsm: 18px;
+    --fs-sm: 20px;
+    --fs-md: 22px;
+    --fs-lg: 24px;
+    --fs-xl: 26px;
+    --fs-xxl: 27px;
+    --fs-3xl: 27px;
+    --fs-4xl: 36px;
+    --fs-5xl: 40px;
+    --fs-6xl: 44px;
+    --fs-7xl: 48px;
+    --fs-8xl: 54px;
+    --fs-9xl: 60px;
+    --fs-10xl: 96px;
+  }
+}
+@media (min-width: 1400px) {
+  :root {
+    --fs-xsm: 18px;
+    --fs-sm: 20px;
+    --fs-md: 22px;
+    --fs-lg: 24px;
+    --fs-xl: 26px;
+    --fs-xxl: 25px;
+    --fs-3xl: 25px;
+    --fs-4xl: 36px;
+    --fs-5xl: 40px;
+    --fs-6xl: 44px;
+    --fs-7xl: 48px;
+    --fs-8xl: 54px;
+    --fs-9xl: 60px;
+    --fs-10xl: 96px;
+  }
+}
+@media (min-width: 1600px) {
+  :root {
+    --fs-xsm: 18px;
+    --fs-sm: 20px;
+    --fs-md: 22px;
+    --fs-lg: 24px;
+    --fs-xl: 26px;
+    --fs-xxl: 30px;
+    --fs-3xl: 32px;
+    --fs-4xl: 36px;
+    --fs-5xl: 40px;
+    --fs-6xl: 44px;
+    --fs-7xl: 48px;
+    --fs-8xl: 54px;
+    --fs-9xl: 60px;
+    --fs-10xl: 96px;
+  }
+  .lh_40 {
+    line-height: 40px;
+  }
+}
