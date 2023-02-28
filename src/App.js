@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 import Featuers from "./components/Featuers";
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ once: true });
   }, []);
   return (
     <>
